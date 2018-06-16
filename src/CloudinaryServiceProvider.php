@@ -23,8 +23,8 @@ class CloudinaryServiceProvider extends ServiceProvider
             __DIR__ . '/config/config.php' => config_path('cloudinary.php'),
         ]);
 
-        Storage::extend('cloudinary', function ($app, $config) {
-            $client = new CloudinaryClient($config['cloudinary']);
+        Storage::extend('cloudinary', function ($app) {
+            $client = new CloudinaryClient($app['config']['cloudinary']);
 
             return new Filesystem(new CloudinaryAdapter($client));
         });
