@@ -1,5 +1,7 @@
 <?php
 
+namespace AdamTorok96\LaravelCloudinaryFileSystem;
+
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
 
