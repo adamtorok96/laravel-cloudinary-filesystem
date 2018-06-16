@@ -13,6 +13,12 @@
         "enl/flysystem-cloudinary": "^1.0",
         "illuminate/support": "^5.6"
     },
+    "autoload": {
+        "psr-4": {
+            "AdamTorok96\\LaravelCloudinaryFileSystem\\": "src/"
+        }
+    },
+    "autoload-dev": { },
     "extra": {
         "laravel": {
             "providers": [
