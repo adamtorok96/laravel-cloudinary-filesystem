@@ -1,0 +1,17 @@
+{
+    "name": "adamtorok96/laravel-cloudinary-filesystem",
+    "description": "A Laravel Package to support Cloudinary FileSystem",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adamtorok",
+            "email": "adamtorok@sch.bme.hu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "enl/flysystem-cloudinary": "dev-master",
+        "illuminate/support": "^5.7@dev"
+    }
+}
