@@ -9,9 +9,10 @@
             "email": "adamtorok@sch.bme.hu"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "enl/flysystem-cloudinary": "dev-master",
         "illuminate/support": "^5.7@dev"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
